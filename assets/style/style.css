@@ -33,7 +33,7 @@ body{
 
 .card1 .card {
     background:
-        url("/assets/images/texture-card1.png"), 
+        url("../images/texture-card1.png"),
         linear-gradient(188deg, #07171d 50%, #b43439 50%);
       
     background-size:
@@ -153,7 +153,7 @@ body{
 
 .card2 .card {
     background:
-        url("/assets/images/drop-design.png"), 
+        url("../images/drop-design.png"), 
         #b33a06;
       
    background-size:
@@ -304,7 +304,7 @@ body{
 
 .card3 .card {
     background:
-        url("/assets/images/texture-tom.png")
+        url("../images/texture-tom.png")
         #fff;
       
    background-size:
@@ -457,7 +457,7 @@ body{
 
 .card5 .card {
     background:
-     url("/assets/images/bg-white.png"),  #cc1a0f;
+     url("../images/bg-white.png"),  #cc1a0f;
            
     background-size:
     cover;
@@ -543,7 +543,7 @@ body{
 
 .card6 .card {
     background:
-     url("/assets/images/bg-texture-6.png"), 
+     url("../images/bg-texture-6.png"), 
       #b72e37;
            
     background-size:
