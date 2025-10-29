@@ -13,6 +13,24 @@ body{
 
 }
 
+/* Tablet view (≤992px) */
+@media (max-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 3rem;
+        gap: 2rem;
+    }
+}
+
+/* Mobile view (≤576px) */
+@media (max-width: 576px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 2rem;
+        gap: 1.5rem;
+    }
+}
+
 .card1 .card {
     background:
         url("/assets/images/texture-card1.png"), 
@@ -475,3 +493,100 @@ body{
     font-weight: 200;
     font-size: 0.7rem;
 }
+
+
+
+/* card 6 styles  */
+
+.card6 .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.card6 .logo img{
+
+    width: 3rem ;
+    border-radius: 50%;
+
+}
+
+.card6 .menu-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+    
+}
+
+.card6 .menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+
+.card6 .restaurant-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
+.card6 .restaurant-address{
+    font-size: 0.7rem;
+
+}
+
+.card6 .card {
+    background:
+     url("/assets/images/bg-texture-6.png"), 
+      #b72e37;
+           
+    background-size:
+    cover;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+.card6 .card-description{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    color: #000;
+    margin-top: 1rem;
+}
+
+.card6 .contact-number, .website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+
+
+.card6 .card-heading1{
+    font-family: "Lavishly Yours", cursive;
+    font-size: 36px;
+    margin: 0;
+    line-height: 1.1;
+    margin-top: 1rem;
+}
+
+.card6 .card-heading2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1.1;
+    margin-top: -6px; 
+    margin-bottom: 0.5rem; 
+
+}
+
