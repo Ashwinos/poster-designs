@@ -850,7 +850,7 @@ body {
 }
 
 .design9 .card-description {
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 1rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -885,37 +885,52 @@ body {
 }
 
 
-.design9 .image-wrapper {
+.design9 {
     position: relative;
+    text-align: center;
+}
+
+/* Text behind images */
+.design9 .headings {
+    position: relative;
+    z-index: 1;
+}
+
+/* Center both images exactly over the text block */
+.design9 .image-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+/* Background image */
 .design9 .bg-image img {
     width: 20rem;
     display: block;
 }
 
+/* Foreground burger image */
 .design9 .menu-image {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -48%); 
-
+    transform: translate(-50%, -50%);
 }
 
 .design9 .menu-image img {
-    width: 12.5rem; 
+    width: 12.5rem;
     height: 8rem;
 }
-
-
 
 .design9 .card-heading1 {
     font-family: "Oswald", sans-serif;
     font-weight: 900;
-    font-size: 75px;
+    font-size: 95px;
     margin: 0;
     line-height: 1.1;
     color: #feefce;
@@ -923,7 +938,7 @@ body {
 
 .design9 .card-heading2 {
     font-family: "Oswald", sans-serif;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     line-height: 1;
     margin-top: -6px;
@@ -938,7 +953,7 @@ body {
 .design9 .card-heading3 {
     font-family: "Oswald", sans-serif;
     font-weight: 900;
-    font-size: 65px;
+    font-size: 85px;
     margin: 0;
     line-height: 1.1;
     color: #feefce;
