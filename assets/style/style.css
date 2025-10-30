@@ -1,5 +1,5 @@
-body{
-    background-color: #f4f4f4;
+body {
+    background-color: #e2e2e2;
 }
 
 .cards {
@@ -8,7 +8,7 @@ body{
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: start;
-    gap: 3rem ;
+    gap: 3rem;
     margin: 5rem;
 
 }
@@ -31,77 +31,81 @@ body{
     }
 }
 
-.card1 .card {
+.design1 .card {
     background:
-        url("../images/texture-card1.png"),
+        url("../images/texture-design1.png"),
         linear-gradient(188deg, #07171d 50%, #b43439 50%);
-      
+
     background-size:
-    200px,  /* increase texture scale */
-    cover;
-    background-blend-mode: overlay; 
-    
+        200px,
+        /* increase texture scale */
+        cover;
+    background-blend-mode: overlay;
+
     border: none;
     border-radius: 15px;
     color: #fff;
 }
-.card1 .menu-image{
+
+.design1 .menu-image {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 
-.card1 .card-heading1 .text-center,
-.card1 .card-heading2 .text-center {
+.design1 .card-heading1 .text-center,
+.design1 .card-heading2 .text-center {
     font-family: "Barlow Semi Condensed", sans-serif;
     font-weight: 800;
     font-size: 40px;
-    margin: 0;             
-    line-height: 1.05;     
+    margin: 0;
+    line-height: 1.05;
 }
 
 
-.card1 .card-heading2 .text-center {
-    margin-top: -6px;       
+.design1 .card-heading2 .text-center {
+    margin-top: -6px;
     margin-bottom: 3rem;
 }
 
-.card1 .card-heading1 {
+.design1 .card-heading1 {
     margin-top: 3rem;
 }
 
 
-.card1 .card-description{
+.design1 .card-description {
     margin-top: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
 }
-.card1 .card-text{
+
+.design1 .card-text {
     text-align: center;
     font-size: 8px;
 }
 
-.card1 .contact-details{
+.design1 .contact-details {
     display: flex;
 }
 
-.card1 .contact-number, .website {
+.design1 .contact-number,
+.website {
     font-weight: 200;
     font-size: 0.7rem;
 }
 
-.card1 .logo-badge img{
+.design1 .logo-badge img {
     width: 3rem;
     border-radius: 50%;
 }
 
-.card1 .restaurant-name {
+.design1 .restaurant-name {
     font-size: 0.8rem;
     /* letter-spacing: 1px;  */
 }
 
-.card1 .restaurant-address{
+.design1 .restaurant-address {
     font-size: 0.7rem;
 
 }
@@ -110,23 +114,23 @@ body{
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: -40px; 
+    margin-top: -40px;
     margin-bottom: 2rem;
 }
 
-.card1 .menu-item {
+.design1 .menu-item {
     width: 12rem;
     border-radius: 50%;
     border: 8px solid #c60309;
 }
 
-.card1 .logo-badge {
+.design1 .logo-badge {
     position: absolute;
-    bottom: -25px; 
+    bottom: -25px;
     left: 50%;
     transform: translateX(-50%);
     border-radius: 50%;
-    border: 4px solid #f10000; 
+    border: 4px solid #f10000;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -137,34 +141,34 @@ body{
 
 /* card 2 styles */
 
-.card2 .logo{
+.design2 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 2rem;
 }
 
-.card2 .logo img{
+.design2 .logo img {
 
-    width: 3rem ;
+    width: 3rem;
     border-radius: 50%;
 
 }
 
-.card2 .card {
+.design2 .card {
     background:
-        url("../images/drop-design.png"), 
+        url("../images/drop-design.png"),
         #b33a06;
-      
-   background-size:
-    cover;
-    
+
+    background-size:
+        cover;
+
     border: none;
     border-radius: 15px;
     color: #fff;
 }
 
-.card2 .menu-image{
+.design2 .menu-image {
 
     display: flex;
     justify-content: center;
@@ -172,59 +176,61 @@ body{
     margin-bottom: 2rem;
 }
 
-.card2 .menu-image img{
+.design2 .menu-image img {
 
     width: 80%;
     border-radius: 1rem;
 
 }
 
-.card2 .card-description{
+.design2 .card-description {
     margin-top: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
 }
-.card2 .card-text{
+
+.design2 .card-text {
     text-align: center;
     font-size: 8px;
 }
 
-/* .card2 .card-heading1{
+/* .design2 .card-heading1{
       font-family: "Lavishly Yours", cursive;
       font-size: 36px;
 }
 
-.card2 .card-heading2{
+.design2 .card-heading2{
       font-family: "Montserrat", sans-serif;
       font-size: 36px;
       font-weight: 800;
 } */
 
 
-.card2 .card-heading1{
+.design2 .card-heading1 {
     font-family: "Lavishly Yours", cursive;
     font-size: 36px;
     margin: 0;
     line-height: 1.1;
 }
 
-.card2 .card-heading2 {
+.design2 .card-heading2 {
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-weight: 800;
     margin: 0;
     line-height: 1.1;
-    margin-top: -6px; 
-    margin-bottom: 1.5rem; 
+    margin-top: -6px;
+    margin-bottom: 1.5rem;
 }
 
-.card2 .contact-number, .website {
+.design2 .contact-number,
+.website {
     font-weight: 200;
     font-size: 0.7rem;
 }
 
-.card2 .restaurant-address{
+.design2 .restaurant-address {
     font-size: 0.7rem;
 
 }
@@ -233,19 +239,19 @@ body{
 /* card 3 style */
 
 
-.card3 .logo img{
-    width: 3rem ;
+.design3 .logo img {
+    width: 3rem;
     border-radius: 50%;
 }
 
-.card3 .logo{
+.design3 .logo {
     display: flex;
     justify-content: end;
     align-items: center;
     margin: 1rem 1rem 0 0;
 }
 
-.card3 .menu-image{
+.design3 .menu-image {
 
     display: flex;
     justify-content: center;
@@ -253,92 +259,92 @@ body{
     margin-bottom: 0.5rem;
 }
 
-.card3 .menu-image img{
+.design3 .menu-image img {
 
     width: 100%;
     margin-bottom: 1rem;
 
 }
 
-.card3 .card-heading1{
+.design3 .card-heading1 {
 
-     font-family: "Sacramento", cursive;
-     font-size: 24px;
+    font-family: "Sacramento", cursive;
+    font-size: 24px;
 }
 
-.card3 .card-heading2{
+.design3 .card-heading2 {
 
-     font-family: "League Spartan", sans-serif;
-     font-weight: 900;
-     font-size: 50px;
-     line-height: 0.9;
-     color: #cc1a0f;
-     margin-bottom: 0.5rem;
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 0.9;
+    color: #cc1a0f;
+    margin-bottom: 0.5rem;
 }
 
-.card3 .card-text{
+.design3 .card-text {
     font-size: 10px;
 }
 
-.card3 .card-description{
+.design3 .card-description {
 
     margin-bottom: 1rem;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.card3 .restaurant-address{
+.design3 .restaurant-address {
 
     font-size: 10px;
 }
 
-.card3 .contact-number, .website {
+.design3 .contact-number,
+.website {
     font-weight: 200;
     font-size: 0.7rem;
 }
 
-.card3 .restaurant-address{
+.design3 .restaurant-address {
     font-size: 0.7rem;
 
 }
 
 
-.card3 .card {
+.design3 .card {
     background:
-        url("../images/texture-tom.png")
-        #fff;
-      
-   background-size:
-    cover;
-    
+        url("../images/texture-tom.png") #fff;
+
+    background-size:
+        cover;
+
     border: none;
     border-radius: 15px;
 }
 
 
-.card3 .card-footer-custom {
-    background-color: transparent;    
-    color: #000;               
-    border-top: none;          
-    padding: 1rem 1.5rem;      
-    border-radius: 0 0 15px 15px; 
+.design3 .card-footer-custom {
+    background-color: transparent;
+    color: #000;
+    border-top: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0 0 15px 15px;
 }
 
 
 /* card style 4 */
 
-.card4 .logo img{
-    width: 3rem ;
+.design4 .logo img {
+    width: 3rem;
     border-radius: 50%;
 }
 
-.card4 .logo{
+.design4 .logo {
     display: flex;
     justify-content: end;
     align-items: center;
     margin: 1rem 1rem 0 0;
 }
 
-.card4 .menu-image{
+.design4 .menu-image {
 
     display: flex;
     justify-content: center;
@@ -346,7 +352,7 @@ body{
     margin-bottom: 0.5rem;
 }
 
-.card4 .menu-image img{
+.design4 .menu-image img {
 
     width: 100%;
     margin-bottom: 0.8rem;
@@ -354,14 +360,14 @@ body{
 }
 
 
-.card4 .card {
+.design4 .card {
     background: linear-gradient(to bottom left, #eab867 50%, #b72e37 50%);
     border: none;
     border-radius: 15px;
     color: #fff;
 }
 
-.card4 .card-heading {
+.design4 .card-heading {
     width: 80%;
     font-size: 60px;
     color: #eab867;
@@ -378,11 +384,11 @@ body{
 }
 
 
-.card4 .card-text{
+.design4 .card-text {
     font-size: 10px;
 }
 
-.card4 .card-description{
+.design4 .card-description {
 
     margin-bottom: 0.5rem;
     width: 80%;
@@ -390,23 +396,24 @@ body{
     /* font-family: 'Times New Roman', Times, serif; */
 }
 
-.card4 .contact-number, .card4 .website {
+.design4 .contact-number,
+.design4 .website {
     font-weight: 200;
     font-size: 0.7rem;
     color: #eab867;
 }
 
-.card4 .restaurant-address{
+.design4 .restaurant-address {
     font-size: 0.7rem;
 
 }
 
-.card4 .restaurant-name {
+.design4 .restaurant-name {
     font-size: 0.8rem;
     /* letter-spacing: 1px;  */
 }
 
-.card1 .restaurant-address{
+.design1 .restaurant-address {
     font-size: 0.7rem;
 
 }
@@ -416,80 +423,81 @@ body{
 /* card 5 style  */
 
 
-.card5 .menu-image {
+.design5 .menu-image {
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
-     margin: 0 auto;
-    
+    margin: 0 auto;
+
 }
 
-.card5 .menu-image img {
+.design5 .menu-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-    
+
+
 }
 
-.card5 .logo img{
-    width: 3rem ;
+.design5 .logo img {
+    width: 3rem;
     border-radius: 50%;
 }
 
-.card5 .logo{
+.design5 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 1rem;
 }
 
-.card5 .card-description{
+.design5 .card-description {
     text-align: center;
     font-size: 12px;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-bottom: 1rem;
-    
+
 }
 
 
-.card5 .card {
+.design5 .card {
     background:
-     url("../images/bg-white.png"),  #cc1a0f;
-           
+        url("../images/bg-white.png"), #cc1a0f;
+
     background-size:
-    cover;
+        cover;
     border: none;
     border-radius: 15px;
     color: #fff;
 }
 
-.card5 .card-heading1{
+.design5 .card-heading1 {
     margin-top: 1rem;
     font-family: "Lexend Deca", sans-serif;
-     font-size: 24px;
+    font-size: 24px;
 }
 
-.card5 .card-heading2{
+.design5 .card-heading2 {
 
-      font-family: "Anton", sans-serif;
-     font-weight: 900;
-     font-size: 65px;
-     line-height: 0.9;
-     color: #ffffff;
-     margin-bottom: 0.5rem;
-     letter-spacing: 0.1rem;
-     margin-bottom: 0.5rem ;
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 0.9;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
 }
 
-.card5 .restaurant-address{
+.design5 .restaurant-address {
     font-size: 0.7rem;
 
 }
 
-.card5 .contact-number, .website {
+.design5 .contact-number,
+.website {
     font-weight: 200;
     font-size: 0.7rem;
 }
@@ -498,63 +506,63 @@ body{
 
 /* card 6 styles  */
 
-.card6 .logo{
+.design6 .logo {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
 }
 
-.card6 .logo img{
+.design6 .logo img {
 
-    width: 3rem ;
+    width: 3rem;
     border-radius: 50%;
 
 }
 
-.card6 .menu-image {
+.design6 .menu-image {
     width: 200px;
     height: 200px;
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
-    
+
 }
 
-.card6 .menu-image img {
+.design6 .menu-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    
-    
+
+
 }
 
 
-.card6 .restaurant-name {
+.design6 .restaurant-name {
     margin-top: 0.5rem;
     font-size: 0.8rem;
     /* letter-spacing: 1px;  */
 }
 
-.card6 .restaurant-address{
+.design6 .restaurant-address {
     font-size: 0.7rem;
 
 }
 
-.card6 .card {
+.design6 .card {
     background:
-     url("../images/bg-texture-6.png"), 
-      #b72e37;
-           
+        url("../images/bg-texture-6.png"),
+        #b72e37;
+
     background-size:
-    cover;
+        cover;
     border: none;
     border-radius: 15px;
     color: #fff;
 }
 
 
-.card6 .card-description{
+.design6 .card-description {
     text-align: center;
     font-size: 12px;
     margin-left: 2rem;
@@ -564,14 +572,15 @@ body{
     margin-top: 1rem;
 }
 
-.card6 .contact-number, .website {
+.design6 .contact-number,
+.website {
     font-weight: 200;
     font-size: 0.7rem;
 }
 
 
 
-.card6 .card-heading1{
+.design6 .card-heading1 {
     font-family: "Lavishly Yours", cursive;
     font-size: 36px;
     margin: 0;
@@ -579,14 +588,358 @@ body{
     margin-top: 1rem;
 }
 
-.card6 .card-heading2 {
+.design6 .card-heading2 {
     font-family: "Montserrat", sans-serif;
     font-size: 36px;
     font-weight: 900;
     margin: 0;
     line-height: 1.1;
-    margin-top: -6px; 
-    margin-bottom: 0.5rem; 
+    margin-top: -6px;
+    margin-bottom: 0.5rem;
 
 }
 
+
+
+/* card 7 style  */
+
+
+.design7 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.design7 .logo img {
+
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+.design7 .restaurant-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
+.design7 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+
+.design7 .image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design7 .bg-image img {
+    width: 15rem;
+    display: block;
+}
+
+.design7 .menu-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%); 
+
+}
+
+.design7 .menu-image img {
+    width: 15rem; 
+    height: 6rem;
+}
+
+.design7 .card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    text-transform: uppercase;
+}
+
+.design7 .card-text {
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.design7 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.design7 .card-heading1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    line-height: 1.1;
+    color: #b72e37;
+}
+
+.design7 .card-heading2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    margin-top: -6px;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+
+
+    -webkit-text-stroke: 1px #b72e37;
+    -webkit-text-fill-color: transparent;
+}
+
+
+ /* card 8 styles */
+
+
+
+ .design8 .logo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 1rem;
+}
+
+.design8 .logo img {
+
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+
+.design8 .menu-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.design8 .menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.design8 .card {
+    background:
+        linear-gradient(160deg, #b72e37 50%, #feefce 50%);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.design8 .card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    text-transform: uppercase;
+    color: #000;
+}
+
+.design8 .card-text {
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.design8 .restaurant-name {
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
+.design8 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+.design8 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+
+.design8 .card-heading1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.1;
+    color: #feefce;
+}
+
+.design8 .card-heading2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: -6px;
+    /* margin-bottom: 0.5rem; */
+    letter-spacing: 2px;
+
+
+    -webkit-text-stroke: 1px #feefce;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+/* design 8 styles */
+
+
+
+.design9 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.design9 .logo img {
+
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+.design9 .restaurant-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    /* letter-spacing: 1px;  */
+}
+
+.design9 .restaurant-address {
+    font-size: 0.7rem;
+    color: white;
+}
+
+
+.design9 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.design9 .menu-image img {
+
+    width: 100%;
+    margin-bottom: 0.8rem;
+
+}
+
+.design9 .card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    /* text-transform: uppercase; */
+    color: #ffffff;
+}
+
+.design9 .card-text {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.design9 .card {
+    background:  url("../images/texture-wall.png"),
+        #d74311;
+         background-size:
+        cover;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+.design9 .contact-number,
+.design9 .website {
+    font-weight: 200;
+    font-size: 0.7rem;
+    color: white;
+}
+
+
+.design9 .image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design9 .bg-image img {
+    width: 20rem;
+    display: block;
+}
+
+.design9 .menu-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -48%); 
+
+}
+
+.design9 .menu-image img {
+    width: 12.5rem; 
+    height: 8rem;
+}
+
+
+
+.design9 .card-heading1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+    margin: 0;
+    line-height: 1.1;
+    color: #feefce;
+}
+
+.design9 .card-heading2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: -6px;
+    /* margin-bottom: 0.5rem; */
+    letter-spacing: 2px;
+
+
+    -webkit-text-stroke: 1px #feefce;
+    -webkit-text-fill-color: transparent;
+}
+
+.design9 .card-heading3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    margin: 0;
+    line-height: 1.1;
+    color: #feefce;
+}
