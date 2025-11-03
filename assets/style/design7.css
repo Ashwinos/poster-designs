@@ -1,0 +1,109 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+.design7 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.design7 .logo img {
+
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+.design7 .restaurant-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
+.design7 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+
+.design7 .image-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design7 .bg-image img {
+    width: 15rem;
+    display: block;
+}
+
+.design7 .menu-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%); 
+
+}
+
+.design7 .menu-image img {
+    width: 15rem; 
+    height: 6rem;
+}
+
+.design7 .card-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    text-transform: uppercase;
+}
+
+.design7 .card-text {
+    text-align: center;
+    font-size: 8px;
+    font-weight: 600;
+}
+
+.design7 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.design7 .card-heading1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    margin: 0;
+    line-height: 1.1;
+    color: #b72e37;
+}
+
+.design7 .card-heading2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    margin-top: -6px;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px;
+
+
+    -webkit-text-stroke: 1px #b72e37;
+    -webkit-text-fill-color: transparent;
+}

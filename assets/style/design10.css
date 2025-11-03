@@ -1,0 +1,127 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+ .design10 .card {
+    background:  
+        #b33a06;
+        
+    border: 5px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.design10 .card-heading1 {
+    margin-top: 1rem;
+    font-family: "Anton", sans-serif;
+    line-height: 1.2;
+     position: relative;
+    z-index: 1;
+    color: #feefce;
+    font-size: 85px;
+}
+
+.design10 .card-heading2 {
+
+    font-family: "Sacramento", cursive;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 0.0;
+    color: #000000;
+    letter-spacing: 0.1rem;
+    margin-bottom: 1rem;
+     position: absolute;
+    left: 50%;
+    bottom: 75%;
+    transform: translate(-50%, -80%);
+    z-index: 2;
+}
+
+.design10 .card-description {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+
+.design10 .card-text {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+.design10 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.design10 .menu-image img {
+
+    width: 80%;
+    border-radius: 1rem;
+
+}
+
+
+.design10 .restaurant-name {
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+    padding-top: 2.5rem;
+}
+
+.design10 .restaurant-address {
+    font-size: 0.7rem;
+    padding-bottom: 1rem;
+}
+
+.design10 .restaurant-details {
+    position: relative;
+    padding-top: 2rem; /* add space so logo doesn't overlap text */
+    border: 5px solid #fff;
+    border-radius: 15px;
+    background: #b33a06;
+    color: #fff;
+}
+
+/* Logo overlaps half in / half out */
+.design10 .logo {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%); /* centers horizontally and lifts halfway out */
+    background: #fff; /* optional: gives it a clean border behind the circle */
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.design10 .logo img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    display: block;
+}
+
+
+.design10 .restraurant-details{
+    margin-left: 0;
+}
+
+.design10 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}

@@ -1,0 +1,92 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+.design5 .menu-image {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.design5 .menu-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+
+.design5 .logo img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.design5 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.design5 .card-description {
+    text-align: center;
+    font-size: 12px;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+
+.design5 .card {
+    background:
+        url("../images/bg-white.png"), #cc1a0f;
+
+    background-size:
+        cover;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.design5 .card-heading1 {
+    margin-top: 1rem;
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 24px;
+}
+
+.design5 .card-heading2 {
+
+    font-family: "Anton", sans-serif;
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 0.9;
+    color: #ffffff;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.design5 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+.design5 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}

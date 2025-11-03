@@ -1,0 +1,162 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+ .design9 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.design9 .logo img {
+
+    width: 3rem;
+    border-radius: 50%;
+
+}
+
+.design9 .restaurant-name {
+    margin-top: 0.5rem;
+    font-size: 0.8rem;
+    color: white;
+    /* letter-spacing: 1px;  */
+}
+
+.design9 .restaurant-address {
+    font-size: 0.7rem;
+    color: white;
+}
+
+
+.design9 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.design9 .menu-image img {
+
+    width: 100%;
+    margin-bottom: 0.8rem;
+
+}
+
+.design9 .card-description {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    /* text-transform: uppercase; */
+    color: #ffffff;
+}
+
+.design9 .card-text {
+    text-align: center;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+
+.design9 .card {
+    background:  url("../images/texture-wall.png"),
+        #d74311;
+         background-size:
+        cover;
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+
+.design9 .contact-number,
+.design9 .website {
+    font-weight: 200;
+    font-size: 0.7rem;
+    color: white;
+}
+
+
+.design9 {
+    position: relative;
+    text-align: center;
+}
+
+.design9 .headings {
+    position: relative;
+    z-index: 1;
+}
+
+.design9 .image-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.design9 .bg-image img {
+    width: 20rem;
+    display: block;
+}
+
+.design9 .menu-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.design9 .menu-image img {
+    width: 12.5rem;
+    height: 8rem;
+}
+
+.design9 .card-heading1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 95px;
+    margin: 0;
+    line-height: 1.1;
+    color: #feefce;
+}
+
+.design9 .card-heading2 {
+    font-family: "Oswald", sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: -6px;
+    /* margin-bottom: 0.5rem; */
+    letter-spacing: 2px;
+
+
+    -webkit-text-stroke: 1px #feefce;
+    -webkit-text-fill-color: transparent;
+}
+
+.design9 .card-heading3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 900;
+    font-size: 85px;
+    margin: 0;
+    line-height: 1.1;
+    color: #feefce;
+}
+

@@ -1,0 +1,34 @@
+ body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f9fafb;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .design-links {
+      text-align: center;
+    }
+
+    .design-links .btn {
+      min-width: 130px;
+      margin: 10px;
+      font-weight: 400;
+      border-radius: 8px;
+      transition: all 0.3s ease;
+    }
+
+    .design-links .btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+
+    

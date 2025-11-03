@@ -1,0 +1,135 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+/* @media (max-width: 992px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 3rem;
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .cards {
+        grid-template-columns: 1fr;
+        margin: 2rem;
+        gap: 1.5rem;
+    }
+} */
+
+.design1 .card {
+    background:
+        url("../images/texture-design1.png"),
+        linear-gradient(188deg, #07171d 50%, #b43439 50%);
+
+    background-size:
+        200px,
+        /* increase texture scale */
+        cover;
+    background-blend-mode: overlay;
+
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.design1 .menu-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.design1 .card-heading1 .text-center,
+.design1 .card-heading2 .text-center {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    line-height: 1.05;
+}
+
+
+.design1 .card-heading2 .text-center {
+    margin-top: -6px;
+    margin-bottom: 3rem;
+}
+
+.design1 .card-heading1 {
+    margin-top: 3rem;
+}
+
+
+.design1 .card-description {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.design1 .card-text {
+    text-align: center;
+    font-size: 8px;
+}
+
+.design1 .contact-details {
+    display: flex;
+}
+
+.design1 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.design1 .logo-badge img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.design1 .restaurant-name {
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
+.design1 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+.menu-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    /* margin-top: -20px; */
+    margin-bottom: 2rem;
+}
+
+.design1 .menu-item {
+    width: 12rem;
+    border-radius: 50%;
+    border: 8px solid #c60309;
+}
+
+.design1 .logo-badge {
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    border: 4px solid #f10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

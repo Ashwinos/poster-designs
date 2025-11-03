@@ -1,0 +1,103 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+.design3 .logo img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.design3 .logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 1rem 1rem 0 0;
+}
+
+.design3 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.design3 .menu-image img {
+
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+
+.design3 .card-heading1 {
+
+    font-family: "Sacramento", cursive;
+    font-size: 24px;
+}
+
+.design3 .card-heading2 {
+
+    font-family: "League Spartan", sans-serif;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 0.9;
+    color: #cc1a0f;
+    margin-bottom: 0.5rem;
+}
+
+.design3 .card-text {
+    font-size: 10px;
+}
+
+.design3 .card-description {
+
+    margin-bottom: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.design3 .restaurant-address {
+
+    font-size: 10px;
+}
+
+.design3 .contact-number,
+.website {
+    font-weight: 200;
+    font-size: 0.7rem;
+}
+
+.design3 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+
+.design3 .card {
+    background:
+        url("../images/texture-tom.png") #fff;
+
+    background-size:
+        cover;
+
+    border: none;
+    border-radius: 15px;
+}
+
+
+.design3 .card-footer-custom {
+    background-color: transparent;
+    color: #000;
+    border-top: none;
+    padding: 1rem 1.5rem;
+    border-radius: 0 0 15px 15px;
+}

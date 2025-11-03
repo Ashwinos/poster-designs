@@ -1,0 +1,95 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+.design4 .logo img {
+    width: 3rem;
+    border-radius: 50%;
+}
+
+.design4 .logo {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 1rem 1rem 0 0;
+}
+
+.design4 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.design4 .menu-image img {
+
+    width: 100%;
+    margin-bottom: 0.8rem;
+
+}
+
+
+.design4 .card {
+    background: linear-gradient(to bottom left, #eab867 50%, #b72e37 50%);
+    border: none;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.design4 .card-heading {
+    width: 80%;
+    font-size: 60px;
+    color: #eab867;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    letter-spacing: 1px;
+    line-height: 3.5rem;
+    font-weight: 900;
+    -webkit-text-stroke: 5px #b33a06;
+    -webkit-text-fill-color: #ffecb2;
+
+    margin-bottom: 1rem;
+    line-height: 0.7;
+
+}
+
+
+.design4 .card-text {
+    font-size: 10px;
+}
+
+.design4 .card-description {
+
+    margin-bottom: 0.5rem;
+    width: 80%;
+    color: #eab867;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.design4 .contact-number,
+.design4 .website {
+    font-weight: 200;
+    font-size: 0.7rem;
+    color: #eab867;
+}
+
+.design4 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+.design4 .restaurant-name {
+    font-size: 0.8rem;
+    /* letter-spacing: 1px;  */
+}
+
