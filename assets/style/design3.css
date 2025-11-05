@@ -32,6 +32,22 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.design3 .order-now  {
+ 
+     margin-bottom: 0.5rem;
+}
+
+.design3 .order-now .btn {
+    
+    background-color: #cc1a0f; 
+    color: #ffff;           
+    font-size: 0.7rem;
+    font-weight: 700;      
+    padding: 6px 18px;       
+    border-radius: 0;      
+    border: none;     
+}
+
 .design3 .menu-image img {
 
     width: 100%;
@@ -61,7 +77,7 @@ body {
 
 .design3 .card-description {
 
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     font-family: 'Times New Roman', Times, serif;
 }
 

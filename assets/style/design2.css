@@ -28,15 +28,16 @@ body {
 
 .design2 .card {
     background:
-        url("../images/drop-design.png"),
+         url("../images/drop-design.png") top center no-repeat,
         #b33a06;
 
-    background-size:
+      background-size:
+        100% auto,
         cover;
-
-    border: none;
+        border: none;   
     border-radius: 15px;
     color: #fff;
+    
 }
 
 .design2 .menu-image {
@@ -44,7 +45,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .design2 .menu-image img {
@@ -58,24 +59,38 @@ body {
     margin-top: 0.5rem;
     margin-left: 2rem;
     margin-right: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    /* font-family: 'Times New Roman', Times, serif; */
+    font-size: 2px;
+
+
+}
+
+
+.design2 .order-now  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0.5rem;
+}
+
+.design2 .order-now .btn {
+    
+    background-color: #ffffff; 
+    color: #b72e37;           
+    font-size: 0.7rem;
+    font-weight: 700;      
+    padding: 6px 18px;       
+    border-radius: 50px;      
+    border: none;     
 }
 
 .design2 .card-text {
     text-align: center;
     font-size: 8px;
 }
-
-/* .design2 .card-heading1{
-      font-family: "Lavishly Yours", cursive;
-      font-size: 36px;
-}
-
-.design2 .card-heading2{
-      font-family: "Montserrat", sans-serif;
-      font-size: 36px;
-      font-weight: 800;
-} */
 
 
 .design2 .card-heading1 {

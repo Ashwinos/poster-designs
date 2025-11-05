@@ -32,6 +32,7 @@ body {
     overflow: hidden;
     border-radius: 50%;
     margin: 0 auto;
+    margin-bottom: 0.5rem;
 
 }
 
@@ -57,11 +58,13 @@ body {
 
 .design6 .card {
     background:
-        url("../images/bg-texture-6.png"),
-        #b72e37;
+        url("../images/bg-texture-6.png") center 100% no-repeat,
+         linear-gradient(180deg, #b72e37 70%, #ffff 30%);
 
-    background-size:
-        cover;
+
+     background-size:
+        100% auto,
+        cover; 
     border: none;
     border-radius: 15px;
     color: #fff;
@@ -83,6 +86,25 @@ body {
     font-weight: 200;
     font-size: 0.7rem;
 }
+
+.design6 .order-now  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin-bottom: 0.5rem; */
+}
+
+.design6 .order-now .btn {
+    
+    background-color: #b72e37; 
+    color: #ffffff;           
+    font-size: 0.7rem;
+    font-weight: 700;      
+    padding: 6px 18px;       
+    border-radius: 50px;      
+    border: none;     
+}
+
 
 
 

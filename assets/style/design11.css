@@ -1,0 +1,131 @@
+body {
+    background-color: #e2e2e2;
+}
+
+.cards {
+    display: grid;
+    /* grid-template-columns: repeat(3, 1fr); */
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    margin: 5rem;
+
+}
+
+ .design11 .card {
+   background:
+        url("../images/bg-11.png") center 40% no-repeat,
+         linear-gradient(180deg, #ffd22f 60%, #ffff 40%);
+         /* background-color: #ffd22f; */
+         background-size:
+        100% auto,
+        cover; 
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+.design11 .logo{
+
+     display: flex;
+    justify-content: flex-end;
+    padding: 1rem 1rem 0 0;
+
+}
+
+.design11 .logo img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+
+.design11 .card-heading1 {
+    font-family: "Sacramento", cursive;
+     font-size: 30px;
+     color: #cc1a0f;
+}
+
+.design11 .card-heading2 {
+  font-family: "Lora", serif;
+    font-size: 60px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: -6px;
+    letter-spacing: 2px;
+    color: #cc1a0f;
+    text-transform: uppercase;
+}
+
+
+.design11 .menu-image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.design11 .menu-image img {
+
+    width: 80%;
+    border-radius: 1rem;
+
+}
+
+.design11 .card-description {
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 0.5rem;
+    /* text-transform: uppercase; */
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+
+
+}
+
+.design11 .card-text{
+    text-align: center;
+    color: black;
+}
+
+.design11 .order-now  {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-bottom: 0.5rem;
+}
+
+.design11 .order-now .btn {
+     width: 60%;
+    background-color: #cc1a0f; 
+    color: #ffff;           
+    font-size: 0.7rem;
+    font-weight: 700;      
+    padding: 6px 18px;       
+    border-radius: 5px;      
+    border: none; 
+    text-transform: uppercase;  
+      font-family: "Lora", serif;
+    font-weight: 900;  
+}
+
+
+.design11 .restaurant-address {
+    font-size: 0.7rem;
+
+}
+
+.design11 .restaurant-name {
+    font-size: 0.8rem;
+}
+
+
+.design11 .contact-number,
+.design11 .website {
+    font-weight: 200;
+    font-size: 0.7rem;
+    /* color: #eab867; */
+}
